@@ -14,6 +14,19 @@
 		AAA4823026DEA95300FA64FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA4822E26DEA95300FA64FE /* LaunchScreen.storyboard */; };
 		AAA4823B26DEA95300FA64FE /* WorldCupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4823A26DEA95300FA64FE /* WorldCupTests.swift */; };
 		AAA4824626DEA95300FA64FE /* WorldCupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4824526DEA95300FA64FE /* WorldCupUITests.swift */; };
+		AAA4827126DEF5B900FA64FE /* TeamGroupInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4826C26DEF5B800FA64FE /* TeamGroupInfoViewController.swift */; };
+		AAA4827226DEF5B900FA64FE /* BottomMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4826D26DEF5B900FA64FE /* BottomMenuViewController.swift */; };
+		AAA4827326DEF5B900FA64FE /* SelectedGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4826E26DEF5B900FA64FE /* SelectedGameViewController.swift */; };
+		AAA4827426DEF5B900FA64FE /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4826F26DEF5B900FA64FE /* CountriesViewController.swift */; };
+		AAA4827526DEF5B900FA64FE /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4827026DEF5B900FA64FE /* NewsViewController.swift */; };
+		AAA4827D26DEF5D300FA64FE /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4827626DEF5D200FA64FE /* UIViewHelper.swift */; };
+		AAA4827E26DEF5D300FA64FE /* CountryFlagsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4827726DEF5D200FA64FE /* CountryFlagsCollectionViewCell.swift */; };
+		AAA4827F26DEF5D300FA64FE /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4827826DEF5D200FA64FE /* HeaderCollectionReusableView.swift */; };
+		AAA4828026DEF5D300FA64FE /* ScoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4827926DEF5D200FA64FE /* ScoreInfoView.swift */; };
+		AAA4828126DEF5D300FA64FE /* TopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4827A26DEF5D200FA64FE /* TopMenu.swift */; };
+		AAA4828226DEF5D300FA64FE /* ProgammaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4827B26DEF5D200FA64FE /* ProgammaticView.swift */; };
+		AAA4828326DEF5D300FA64FE /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4827C26DEF5D300FA64FE /* NewsView.swift */; };
+		AAA4828526DEF5DC00FA64FE /* countryNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA4828426DEF5DC00FA64FE /* countryNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		AAA4824126DEA95300FA64FE /* WorldCupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldCupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA4824526DEA95300FA64FE /* WorldCupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupUITests.swift; sourceTree = "<group>"; };
 		AAA4824726DEA95300FA64FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA4826C26DEF5B800FA64FE /* TeamGroupInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamGroupInfoViewController.swift; sourceTree = "<group>"; };
+		AAA4826D26DEF5B900FA64FE /* BottomMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomMenuViewController.swift; sourceTree = "<group>"; };
+		AAA4826E26DEF5B900FA64FE /* SelectedGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedGameViewController.swift; sourceTree = "<group>"; };
+		AAA4826F26DEF5B900FA64FE /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		AAA4827026DEF5B900FA64FE /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		AAA4827626DEF5D200FA64FE /* UIViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		AAA4827726DEF5D200FA64FE /* CountryFlagsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryFlagsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AAA4827826DEF5D200FA64FE /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		AAA4827926DEF5D200FA64FE /* ScoreInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreInfoView.swift; sourceTree = "<group>"; };
+		AAA4827A26DEF5D200FA64FE /* TopMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenu.swift; sourceTree = "<group>"; };
+		AAA4827B26DEF5D200FA64FE /* ProgammaticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgammaticView.swift; sourceTree = "<group>"; };
+		AAA4827C26DEF5D300FA64FE /* NewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		AAA4828426DEF5DC00FA64FE /* countryNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countryNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +123,11 @@
 		AAA4822226DEA95200FA64FE /* WorldCup */ = {
 			isa = PBXGroup;
 			children = (
+				AAA4826B26DEF57600FA64FE /* Controller */,
+				AAA4826A26DEF56F00FA64FE /* View */,
+				AAA4826926DEF55B00FA64FE /* Model */,
 				AAA4822326DEA95200FA64FE /* AppDelegate.swift */,
 				AAA4822526DEA95200FA64FE /* SceneDelegate.swift */,
-				AAA4822726DEA95200FA64FE /* ViewController.swift */,
 				AAA4822C26DEA95300FA64FE /* Assets.xcassets */,
 				AAA4822E26DEA95300FA64FE /* LaunchScreen.storyboard */,
 				AAA4823126DEA95300FA64FE /* Info.plist */,
@@ -123,6 +151,41 @@
 				AAA4824726DEA95300FA64FE /* Info.plist */,
 			);
 			path = WorldCupUITests;
+			sourceTree = "<group>";
+		};
+		AAA4826926DEF55B00FA64FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4828426DEF5DC00FA64FE /* countryNames.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAA4826A26DEF56F00FA64FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4827726DEF5D200FA64FE /* CountryFlagsCollectionViewCell.swift */,
+				AAA4827826DEF5D200FA64FE /* HeaderCollectionReusableView.swift */,
+				AAA4827C26DEF5D300FA64FE /* NewsView.swift */,
+				AAA4827B26DEF5D200FA64FE /* ProgammaticView.swift */,
+				AAA4827926DEF5D200FA64FE /* ScoreInfoView.swift */,
+				AAA4827A26DEF5D200FA64FE /* TopMenu.swift */,
+				AAA4827626DEF5D200FA64FE /* UIViewHelper.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAA4826B26DEF57600FA64FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4826D26DEF5B900FA64FE /* BottomMenuViewController.swift */,
+				AAA4826F26DEF5B900FA64FE /* CountriesViewController.swift */,
+				AAA4827026DEF5B900FA64FE /* NewsViewController.swift */,
+				AAA4826E26DEF5B900FA64FE /* SelectedGameViewController.swift */,
+				AAA4826C26DEF5B800FA64FE /* TeamGroupInfoViewController.swift */,
+				AAA4822726DEA95200FA64FE /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +318,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAA4822826DEA95200FA64FE /* ViewController.swift in Sources */,
+				AAA4828226DEF5D300FA64FE /* ProgammaticView.swift in Sources */,
+				AAA4828126DEF5D300FA64FE /* TopMenu.swift in Sources */,
+				AAA4828326DEF5D300FA64FE /* NewsView.swift in Sources */,
+				AAA4827F26DEF5D300FA64FE /* HeaderCollectionReusableView.swift in Sources */,
+				AAA4828526DEF5DC00FA64FE /* countryNames.swift in Sources */,
+				AAA4827426DEF5B900FA64FE /* CountriesViewController.swift in Sources */,
+				AAA4827126DEF5B900FA64FE /* TeamGroupInfoViewController.swift in Sources */,
 				AAA4822426DEA95200FA64FE /* AppDelegate.swift in Sources */,
 				AAA4822626DEA95200FA64FE /* SceneDelegate.swift in Sources */,
+				AAA4827D26DEF5D300FA64FE /* UIViewHelper.swift in Sources */,
+				AAA4827326DEF5B900FA64FE /* SelectedGameViewController.swift in Sources */,
+				AAA4827E26DEF5D300FA64FE /* CountryFlagsCollectionViewCell.swift in Sources */,
+				AAA4828026DEF5D300FA64FE /* ScoreInfoView.swift in Sources */,
+				AAA4827226DEF5B900FA64FE /* BottomMenuViewController.swift in Sources */,
+				AAA4827526DEF5B900FA64FE /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
