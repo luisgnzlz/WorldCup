@@ -33,7 +33,7 @@ class BottomMenuViewController: UITabBarController {
             viewControllers = [
                 createNavController(for: CountriesViewController(), title: "Scores", image: UIImage(systemName: "sportscourt.fill")!),
                 createNavController(for: TeamGroupInfoViewController(), title: "Group Info", image: UIImage(systemName: "chart.bar.fill")!),
-                createNavController(for: NewsViewController(), title: "News", image: UIImage(systemName: "person")!)
+                createNavController(for: NewsViewController(), title: "News", image: UIImage(systemName: "newspaper.fill")!)
             ]
         UINavigationBar.appearance().prefersLargeTitles = true
         }
