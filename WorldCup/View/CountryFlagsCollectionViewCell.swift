@@ -9,8 +9,11 @@ import UIKit
 
 class CountryFlagsCollectionViewCell: UICollectionViewCell {
     
-    let flagPic = UIImageView()
-    let countryNameLabel = UILabel()
+    let flagPic1 = UIImageView()
+    let flagPic2 = UIImageView()
+    let countryNameLabel1 = UILabel()
+    let countryNameLabel2 = UILabel()
+    let vs = UILabel()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -19,24 +22,46 @@ class CountryFlagsCollectionViewCell: UICollectionViewCell {
     }
     
     func configure() {
-        flagPic.contentMode = .scaleAspectFit
+        flagPic1.contentMode = .scaleAspectFit
         
-        countryNameLabel.text = "Country Name"
-        countryNameLabel.textAlignment = .center
-        countryNameLabel.font = UIFont(name: "GeezaPro-Bold", size: 14)
-        countryNameLabel.textColor = .black
+        flagPic2.contentMode = .scaleAspectFit
+        
+        vs.text = "vs"
+        vs.textAlignment = .center
+        vs.font = UIFont(name: "GeezaPro-Bold", size: 20)
+        vs.textColor = .black
+        
+        countryNameLabel1.text = "Country Name"
+        countryNameLabel1.textAlignment = .center
+        countryNameLabel1.font = UIFont(name: "GeezaPro-Bold", size: 14)
+        countryNameLabel1.textColor = .black
+        
+        countryNameLabel2.text = "Country Name"
+        countryNameLabel2.textAlignment = .center
+        countryNameLabel2.font = UIFont(name: "GeezaPro-Bold", size: 14)
+        countryNameLabel2.textColor = .black
     }
     
     func constrain() {
-        addConstrainedSubviews(flagPic, countryNameLabel)
+        addConstrainedSubviews(flagPic1, vs, flagPic2, countryNameLabel1, countryNameLabel2)
         
         NSLayoutConstraint.activate([
-            flagPic.topAnchor.constraint(equalTo: topAnchor, constant: 24),
-            flagPic.centerXAnchor.constraint(equalTo: centerXAnchor),
+            flagPic1.topAnchor.constraint(equalTo: topAnchor, constant: 24),
+            flagPic1.trailingAnchor.constraint(equalTo: centerXAnchor, constant: -50),
             
-            countryNameLabel.topAnchor.constraint(equalTo: flagPic.bottomAnchor, constant: 20),
-            countryNameLabel.leftAnchor.constraint(equalTo: flagPic.leftAnchor),
-            countryNameLabel.rightAnchor.constraint(equalTo: flagPic.rightAnchor),
+            vs.topAnchor.constraint(equalTo: topAnchor, constant: 40),
+            vs.centerXAnchor.constraint(equalTo: centerXAnchor),
+            
+            flagPic2.topAnchor.constraint(equalTo: topAnchor, constant: 24),
+            flagPic2.leadingAnchor.constraint(equalTo: centerXAnchor, constant: 50),
+            
+            countryNameLabel1.topAnchor.constraint(equalTo: flagPic1.bottomAnchor, constant: 20),
+            countryNameLabel1.leftAnchor.constraint(equalTo: flagPic1.leftAnchor),
+            countryNameLabel1.rightAnchor.constraint(equalTo: flagPic1.rightAnchor),
+            
+            countryNameLabel2.topAnchor.constraint(equalTo: flagPic2.bottomAnchor, constant: 20),
+            countryNameLabel2.leftAnchor.constraint(equalTo: flagPic2.leftAnchor),
+            countryNameLabel2.rightAnchor.constraint(equalTo: flagPic2.rightAnchor),
         ])
     }
     
