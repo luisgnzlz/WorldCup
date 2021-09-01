@@ -22,7 +22,6 @@ class NewsView: ProgammaticView {
         
         news.isEditable = false
         news.text = "\tklwajfeiawjf sdkjdf asj fglsaj fljaoiethga ehgf sf saj fihjaew;oig aeihf saeki;hf iasej fiaesj filasej fhsa fdsajdslk;jfksalfjkdlsafj lasjef aweihfg iawehtfiuwearyf iesahg kadbfg aesfh iaewhf iaweohf iawehgfi aeuh fiawe fiaeh iogfhaeig uash fuahsf iahe sifh aseiohf uaesh fuawehiugf asefb.\n\n eijior;afj al;isjf sdjf kasdjf lsajd flawje ifhawiuret aiwjehr ;qwaoiheirpq eh gis fhiaeh fihewa ir oah fgieh sfgha egfqew apirahw fh lkdsjb gvkashef h;eas fhsdha fuhads hdsu.\n\n jsakld fjadslijf alkeshf kaehsfk adhskf hdksajf ikladsj fkhagwelurgf uesahf kjsahdfk hsad kfhiuweg4rt iewauhgf bdsfjkvasl dhf aksehf iuehw ifhe asfuhe iusaehfg kersbdvg iaush reiqwhf dsh fkah sdkfh iuwaegfitu gewuirf giuwq."
-        //news.numberOfLines = 0
         news.font = UIFont(name: "GeezaPro-Bold", size: 16)
         news.textColor = .black
     }
