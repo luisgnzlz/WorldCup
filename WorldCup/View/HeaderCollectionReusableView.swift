@@ -24,7 +24,6 @@ class HeaderCollectionReusableView: UICollectionReusableView {
         headerLabel.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.6)
         headerLabel.layer.cornerRadius = 2
         headerLabel.layer.masksToBounds = true
-        //headerLabel.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
         headerLabel.font = UIFont.boldSystemFont(ofSize: 22)
         
         underLine.backgroundColor = .black
