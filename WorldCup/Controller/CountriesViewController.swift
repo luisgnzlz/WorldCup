@@ -12,7 +12,6 @@ class CountriesViewController: UIViewController, UICollectionViewDataSource, UIC
     let gameInfo = SelectedGameViewController()
     let layoutProducts = UICollectionViewFlowLayout()
     var collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout.init())
-    let logoImage = UIImageView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +22,7 @@ class CountriesViewController: UIViewController, UICollectionViewDataSource, UIC
     
     func setUpView() {
 
-        layoutProducts.itemSize = CGSize(width: (view.frame.width-22)/2, height: view.frame.height/5)
+        layoutProducts.itemSize = CGSize(width: (view.frame.width-22), height: view.frame.height/5)
         layoutProducts.minimumLineSpacing = 1
         layoutProducts.minimumInteritemSpacing = 1
         
@@ -51,15 +50,15 @@ class CountriesViewController: UIViewController, UICollectionViewDataSource, UIC
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return 2
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let collectionCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! CountryFlagsCollectionViewCell
         
-        //collectionCell.backgroundColor = .green
-            collectionCell.flagPic.image = UIImage(named: "\(countryNames[indexPath.row])")
-            //collectionCell.itemInfo.text = "\(topSellerList[indexPath.row])"
+            collectionCell.flagPic1.image = UIImage(named: "\(countryNames.randomElement() ?? "au")")
+            collectionCell.flagPic2.image = UIImage(named: "\(countryNames.randomElement() ?? "au")")
+            
         
         return collectionCell
     }
@@ -77,13 +76,13 @@ class CountriesViewController: UIViewController, UICollectionViewDataSource, UIC
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return CGSize(width: (view.frame.width)/2, height: 40)
+        return CGSize(width: (view.frame.width), height: 40)
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let selectedCell = collectionView.cellForItem(at: indexPath) as! CountryFlagsCollectionViewCell
-        gameInfo.overallScore.imageFlag1.image = selectedCell.flagPic.image
-        gameInfo.overallScore.imageFlag2.image = selectedCell.flagPic.image
+        gameInfo.overallScore.imageFlag1.image = selectedCell.flagPic1.image
+        gameInfo.overallScore.imageFlag2.image = selectedCell.flagPic1.image
         present(gameInfo, animated: true, completion: nil)
     }
 
